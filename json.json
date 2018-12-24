@@ -5,7 +5,7 @@
       "Tax052": [
         {
           "description": "Tax052 program extracts data from /tax/bin/taxbatch.txt and inserts it into the data collection tables",
-          "process": "Operations runs the program each business day at 07:30AM.</td><tr><td>The batch date is the system date of the run. The batch number is 1.</td></tr>",
+          "process": "Operations runs the program each business day at 07:30AM.<tr><td>The batch date is the system date of the run. The batch number is 1.</td></tr>",
           "execution": " cd /tax/bin",
           "recovery": "Hardware/system error: re-execute tax052",
           "prints": "<li>TAX052.YYYYMonDD.HHMMSS.01 TXP001</li><li>Operations prints the error report directly from Linux to a printer at Income Tax.</li>"
