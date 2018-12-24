@@ -5,7 +5,7 @@
       "Tax052": [
         {
           "description": "Tax052 program extracts data from /tax/bin/taxbatch.txt and inserts it into the data collection tables",
-          "process1": "Operations runs the program each business day at 07:30AM.",
+          "process1": "<td>Operations runs the program each business day at 07:30AM.<td></tr><tr><td>The batch date is the system dae of the run. The batch number is 1.</td></tr>",
           "process2": "The batch date is the system dae of the run. The batch number is 1.",
           "execution": " cd /tax/bin",
           "recovery": "Hardware/system error: re-execute tax052",
