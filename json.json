@@ -9,7 +9,7 @@
           "process2": "The batch date is the system dae of the run. The batch number is 1.",
           "execution": " cd /tax/bin",
           "recovery": "Hardware/system error: re-execute tax052",
-          "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001"
+          "prints": "<li>TAX052.YYYYMonDD.HHMMSS.01 TXP001</li><li>Operations prints the error report directly from Linux to a printer at Income Tax.</li>"
         }
       ]
     }
