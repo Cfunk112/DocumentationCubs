@@ -2,7 +2,7 @@
   {
     "Scripts": [
       {
-        "Tax052": [
+        "Tax052": 
           {
             "description": "Tax052 program extracts data from /tax/bin/taxbatch.txt and inserts it into the data collection tables",
             "process": "Operations runs the program each business day at 07:30AM.The batch date is the system date of the run. The batch number is 1.",
@@ -10,10 +10,10 @@
             "recovery": "Hardware/system error: re-execute tax052",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "500_lat_upd_all": [
+        "500_lat_upd_all": 
           {
             "description": "manipulates and stores data in tables for reporting the 500 series reports",
             "process": "This operation",
@@ -21,10 +21,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "500_lat_all_upd_el_srat.sql": [
+        "500_lat_all_upd_el_srat.sql": 
           {
             "description": "This is the script that manipulates data for tables reporting the 500series_monthend rports",
             "process": "TThis operation will run once monthly on the first of each month",
@@ -32,10 +32,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "monthend_YYYY": [
+        "monthend_YYYY": 
           {
             "description": "This script is the initializer for the 500 series reports",
             "process": "This operation will run once monthly on the second day of each month at 9:30 AM",
@@ -43,10 +43,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "open_gl.sh": [
+        "open_gl.sh": 
           {
             "description": "This script will generate a report of GL codes with unpaid balances",
             "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -54,10 +54,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "was425a.sh": [
+        "was425a.sh": 
           {
             "description": "This script generates a report of the cities top 100 consumers of public utilities for the month",
             "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -65,10 +65,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "ws425a_1yr.sh": [
+        "ws425a_1yr.sh": 
           {
             "description": "This script generates a report of the cities top 100 consumers of public utilities for the year",
             "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -76,10 +76,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "500series.sh": [
+        "500series.sh": 
           {
             "description": "This script generates a temporary table to run reports for sewer use",
             "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -87,10 +87,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "test_505_rpt": [
+        "test_505_rpt": 
           {
             "description": "This script generates a report for billed water consumption in a 500series 505 report format",
             "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -109,10 +109,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "test_515_rpt": [
+        "test_515_rpt": 
           {
             "description": "This script generates a report for billed water consumption in a 500series 515 report format",
             "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -120,10 +120,10 @@
             "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
             "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
           }
-        ]
+        
       },
       {
-        "test_555_rpt": [
+        "test_555_rpt": 
           {
             "description": "This script generates a report for billed water consumption in a 500series 555 report format",
             "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -133,10 +133,10 @@
           }
         ]
       }
-    ]
+    
   },
   {
-    "test_510N_rpt": [
+    "test_510N_rpt": 
       {
         "description": "This script generates a report for billed water consumption in a 500series 510N report format",
         "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -144,10 +144,10 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
+    
   },
   {
-    "test_505_rpt_excp": [
+    "test_505_rpt_excp": 
       {
         "description": "This is the script which generates exceptions reports for common to all 500series report",
         "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -155,10 +155,10 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
+    
   },
   {
-    "500series_excel_format.sh": [
+    "500series_excel_format.sh": 
       {
         "description": "Create the excel report format tables for regular 500series reporting period",
         "process": "This operation will run once monthly on the second day of each month after the Step2 script has run",
@@ -166,10 +166,10 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
+
   },
   {
-    "step2.sh": [
+    "step2.sh": 
       {
         "description": "this script runs the test 505, 510, 515, 555, 510N, 505excp, and 500series excel scripts",
         "process": "This operation will run once monthly on the second day of each month after the monthend_YYYY script has run",
@@ -177,10 +177,10 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
+
   },
   {
-    "step2_oneyear.sh": [
+    "step2_oneyear.sh":
       {
         "description": "this script runs the test 505, 510, 515, 555, 510N, 505excp, and 500series excel scripts for the whole year",
         "process": "This operation will run once yearly on the first day of each year after the monthend_YYYY script has run ",
@@ -188,10 +188,9 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
   },
   {
-    "test_505_1yr_rpt": [
+    "test_505_1yr_rpt":
       {
         "description": "This script generates a report for billed water consumption in a 500series 505 report format for the whole year",
         "process": "This operation will run once yearly on the first day of each year after the step2_oneyear script has run",
@@ -199,10 +198,9 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
   },
   {
-    "test_510_1yr_rpt": [
+    "test_510_1yr_rpt":
       {
         "description": "This script generates a report for billed water consumption in a 500series 510 report format for the whole year",
         "process": "This operation will run once yearly on the first day of each year after the step2_oneyear script has run",
@@ -210,10 +208,9 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
   },
   {
-    "test_515_1yr_rpt": [
+    "test_515_1yr_rpt":
       {
         "description": "This script generates a report for billed water consumption in a 500series 515 report format for the whole year",
         "process": "This operation will run once yearly on the first day of each year after the step2_oneyear script has run",
@@ -221,10 +218,9 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
   },
   {
-    "test_555_1yr_rpt": [
+    "test_555_1yr_rpt":
       {
         "description": "This script generates a report for billed water consumption in a 500series 555 report format for the whole year",
         "process": "This operation will run once yearly on the first day of each year after the step2_oneyear script has run",
@@ -232,10 +228,9 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
   },
   {
-    "test_510N_1yr_rpt": [
+    "test_510N_1yr_rpt":
       {
         "description": "This script generates a report for billed water consumption in a 500series 510N report format for the whole year",
         "process": "This operation will run once yearly on the first day of each year after the step2_oneyear script has run",
@@ -243,10 +238,9 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
   },
   {
-    "test_505_rpt_1yr_excp": [
+    "test_505_rpt_1yr_excp":
       {
         "description": "This is the script which generates exceptions reports for common to all 500series report for the whole year",
         "process": "This operation will run once yearly on the first day of each year after the step2_oneyear script has run",
@@ -254,10 +248,9 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
   },
   {
-    "test_510N_1yr_rpt": [
+    "test_510N_1yr_rpt":
       {
         "description": "This is the script which generates exceptions reports for common to all 500series report for the whole year",
         "process": "This operation will run once yearly on the first day of each year after the step2_oneyear script has run ",
@@ -265,6 +258,5 @@
         "recovery": "Hardware/system error: re-execute 500_lat_upd_all",
         "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
       }
-    ]
   }
 ]
