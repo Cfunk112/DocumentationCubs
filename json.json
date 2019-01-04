@@ -120,9 +120,8 @@
           "prints": "TAX052.YYYYMonDD.HHMMSS.01 TXP001. Operations prints the error report directly from Linux to a printer at Income Tax."
         }
 
-      }
+      },
 
-  },
   {
     "test_510N_rpt": {
       "description": "This script generates a report for billed water consumption in a 500series 510N report format",
